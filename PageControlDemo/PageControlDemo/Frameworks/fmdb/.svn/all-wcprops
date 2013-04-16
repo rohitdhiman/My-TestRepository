@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/mliapp/!svn/ver/36/FacoIphone/FacoIphone/Frameworks/fmdb
+END
+DatabaseMigrator.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/DatabaseMigrator.h
+END
+FMDatabaseAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/FMDatabaseAdditions.m
+END
+FMDatabase.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/FMDatabase.m
+END
+FMResultSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/FMResultSet.h
+END
+fmdb.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/fmdb.m
+END
+DatabaseMigrator.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/DatabaseMigrator.m
+END
+FMResultSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/FMResultSet.m
+END
+AbstractRepository.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/AbstractRepository.h
+END
+FMDatabaseAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/FMDatabaseAdditions.h
+END
+FMDatabase.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mliapp/!svn/ver/6/FacoIphone/FacoIphone/Frameworks/fmdb/FMDatabase.h
+END
+AbstractRepository.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mliapp/!svn/ver/36/FacoIphone/FacoIphone/Frameworks/fmdb/AbstractRepository.m
+END
