@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define WEBURL          @"http://dvm.zoolook.me/showroom/list"
+#define BASEURL          @"http://dvm.zoolook.me/showroom/list"
 
 #define LoginRequestName                        @"Login"
 
