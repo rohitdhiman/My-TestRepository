@@ -1,4 +1,4 @@
 My-TestRepository
 =================
 
-test repository modified.
+test repository modified. Modified test repository.
