@@ -10,7 +10,10 @@
 
 #define BASEURL          @"http://dvm.zoolook.me/showroom/list"
 
-#define LoginRequestName                        @"Login"
+
+
+#define LoginRequestName            @"Login"
+#define UserShowRoomRequestName     @"ShowroomList"
 
 
 //@protocol URL <NSObject>

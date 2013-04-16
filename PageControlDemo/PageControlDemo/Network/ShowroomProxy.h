@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Proxy.h"
 
 @protocol ShowroomProxyDelegate <NSObject>
 
@@ -15,11 +16,11 @@
 - (void) getShowroolList:(NSMutableArray *)showroomListArray;
 
 @required
-
+- (void) showRoomDidFail:(NSString *)error;
 
 @end
 
-@interface ShowroomProxy : NSObject
+@interface ShowroomProxy : Proxy
 {
     id<ShowroomProxyDelegate>showroomProxyDelegate;
     NSString *requestName;
@@ -27,7 +28,8 @@
 @property(nonatomic, assign)id<ShowroomProxyDelegate>showroomProxyDelegate;
 @property(nonatomic, strong)NSString *requestName;
 
--(void)postShowroomList;
+-(void)postShowroomListWithSpeeKeyAndUserDict:(NSString *)spreeKey
+                                  andUserDict:(NSDictionary *)userDict;
 -(void)saveShowroomList:(NSString *)responseString;
 
 @end
