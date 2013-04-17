@@ -53,6 +53,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+//For downloading in background and cached the images.
 - (void)downloadImageWithURL : (NSString *)imageURL
 {
     [self.activityIndicator startAnimating];
