@@ -247,16 +247,9 @@ static NSString *kImageKey = @"imageKey";
         [_scrollView addSubview:_myViewController.view];
         [_myViewController didMoveToParentViewController:self];
         
-        //NSDictionary *numberItem = [_contentList objectAtIndex:page];
-          
         [_myViewController downloadImageWithURL:[NSString stringWithFormat:@"http://%@",showroomImageURL]];
-       
-        /*
-        _myViewController.numberImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:
-                                                                     [NSURL URLWithString:[NSString stringWithFormat:@"http://%@",showroomImageURL]]]];
-        */
-        //myViewController.numberImage.image = [UIImage imageNamed:[numberItem valueForKey:kImageKey]];
-        _myViewController.numberTitle.text = [NSString stringWithFormat:@"%d",page];//[numberItem valueForKey:kNameKey];
+         _myViewController.numberTitle.text = [NSString stringWithFormat:@"%d",page];
+        
     }
     
 }
