@@ -10,6 +10,7 @@
 #import "MyViewController.h"
 #import "SBJson.h"
 #import "ShowroomModel.h"
+#import "FlickerLoginViewController.h"
 
 static NSString *kNameKey = @"nameKey";
 static NSString *kImageKey = @"imageKey";
@@ -41,6 +42,7 @@ static NSString *kImageKey = @"imageKey";
 @synthesize totalPageCount = _totalPageCount;
 @synthesize showroomImageArray = _showroomImageArray;
 @synthesize myViewController = _myViewController;
+@synthesize flickerButton = _flickerButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -58,7 +60,7 @@ static NSString *kImageKey = @"imageKey";
     //read from plist
     // load our data from a plist file inside our app bundle
 
-    
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
     
     ///webservice
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://dvm.zoolook.me/showroom/list"]];
@@ -279,6 +281,11 @@ static NSString *kImageKey = @"imageKey";
      [self gotoPage:YES];
 }
 
-
+- (IBAction)flickerButtonTapped:(id)sender
+{
+    FlickerLoginViewController *flickerLoginViewController = [[FlickerLoginViewController alloc] initWithNibName:@"FlickerLoginViewController"
+                                                                                                          bundle:nil];
+    [self.navigationController pushViewController:flickerLoginViewController animated:YES];
+}
 
 @end

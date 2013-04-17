@@ -17,7 +17,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.pagingViewController = [[PagingViewController alloc] initWithNibName:@"PagingViewController" bundle:nil];
-    self.window.rootViewController = self.pagingViewController;
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.pagingViewController];
+    
+    self.window.rootViewController = self.navigationController;//self.pagingViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

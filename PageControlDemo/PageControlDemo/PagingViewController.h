@@ -12,11 +12,14 @@
 {
     UIScrollView *scrollView;
     UIPageControl *pageControl;
+    UIButton *flickerButton;
 }
 
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, strong) IBOutlet UIPageControl *pageControl;
+@property (nonatomic, strong) IBOutlet UIButton *flickerButton;
 
 - (IBAction)changePage:(id)sender;
+- (IBAction)flickerButtonTapped:(id)sender;
 
 @end
