@@ -13,4 +13,5 @@
 + (NSData *) dataFromDictionry : (NSDictionary *)dict;
 + (NSData *) dataFromArray : (NSMutableArray *)array;
 + (BOOL) isValidEmail:(NSString *)checkString;
+
 @end

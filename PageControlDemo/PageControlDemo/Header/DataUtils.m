@@ -16,14 +16,6 @@
 
 + (NSData *) dataFromDictionry : (NSDictionary *)dict
 {
-    /*
-    SBJsonParser *jsonHelper = [[SBJsonParser alloc] init];
-    jsonHelper.humanReadable = NO;
-    NSString *jsonString = [jsonHelper stringWithObject:dict];
-    NSLog(@"getDataFromDic: %@",jsonString);
-    NSData *data = [jsonString dataUsingEncoding:NSASCIIStringEncoding];
-    return data;
-    */
     
     SBJsonWriter *jsonWriter = [[SBJsonWriter alloc] init];
     NSError *error = nil;
@@ -32,20 +24,10 @@
     NSData *data = [jsonString dataUsingEncoding:NSUTF8StringEncoding
                             allowLossyConversion:YES];
     return data;
-    
-  
 }
 
 + (NSData *) dataFromArray : (NSMutableArray *)array
 {
-    /*
-    SBJson *jsonHelper = [[SBJson alloc] init];
-    jsonHelper.humanReadable = NO;
-    NSString *jsonString = [jsonHelper stringWithObject:array];
-    NSLog(@"getDataFromArray: %@",jsonString);
-    NSData *data = [jsonString dataUsingEncoding:NSASCIIStringEncoding];
-    return data;
-    */
     SBJsonWriter *jsonWriter = [[SBJsonWriter alloc] init];
     NSError *error = nil;
     NSString *jsonString = [jsonWriter stringWithObject:array error:&error];
