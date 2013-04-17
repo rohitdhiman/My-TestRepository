@@ -10,7 +10,7 @@
 
 @interface FlickerLoginViewController : UIViewController <NSURLConnectionDataDelegate>
 {
-    
+    //declare UI object.
 }
 
 @end
