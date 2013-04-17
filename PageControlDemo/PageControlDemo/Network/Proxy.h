@@ -21,12 +21,6 @@
                       usingData:(NSData *)data
                  andRequestName:(NSString *)rName;
 
-- (void) postMultipartRequestWithURL:(NSString *)url
-                     usingSessionKey:(NSString *)key
-                           usingData:(NSData *)data
-                      andRequestName:(NSString *)rName
-                      andProductDict:(NSDictionary *)productDict;
-
 //Handle PUT request
 - (void) putRequestDataWithURL:(NSString *)url
                usingSessionKey:(NSString *)key
